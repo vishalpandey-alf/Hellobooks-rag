@@ -1,0 +1,45 @@
+The cash flow statement tracks the movement of cash and cash equivalents into and out of a business over a period of time.
+
+It helps assess liquidity and the company’s ability to meet financial obligations.
+
+The cash flow statement consists of three main sections:
+
+Operating Activities
+
+Cash generated from core business operations.
+
+Examples include:
+• cash received from customers
+• payments to suppliers
+• employee salaries
+• operating expenses
+
+Investing Activities
+
+Cash used for acquiring or selling long-term assets.
+
+Examples include:
+• purchasing equipment
+• selling property
+• buying securities
+• selling investments
+
+Financing Activities
+
+Cash flows related to financing the business.
+
+Examples include:
+• issuing shares
+• borrowing loans
+• repaying debt
+• paying dividends
+
+Positive cash flow indicates that the business generates more cash than it spends.
+
+Negative cash flow may indicate expansion investments or financial distress depending on the context.
+
+Investors and analysts examine cash flow statements to evaluate:
+
+• liquidity
+• operational efficiency
+• financial sustainability

@@ -1,0 +1,20 @@
+Accrual accounting records revenues and expenses when they are earned or incurred, regardless of when cash is received or paid.
+
+This method follows the matching principle, which states that expenses should be recorded in the same accounting period as the revenues they help generate.
+
+Example:
+If a company provides services in December but receives payment in January, the revenue is recorded in December.
+
+Accrual accounting provides a more accurate picture of a company’s financial position compared to cash accounting.
+
+Journal entry example:
+
+When revenue is earned but cash not yet received:
+
+Debit: Accounts Receivable  
+Credit: Revenue
+
+When cash is received later:
+
+Debit: Cash  
+Credit: Accounts Receivable

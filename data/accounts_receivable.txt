@@ -1,0 +1,24 @@
+Accounts receivable represents money owed to a company by its customers for goods or services delivered on credit.
+
+It appears as a current asset on the balance sheet.
+
+When a sale is made on credit:
+
+Debit: Accounts Receivable  
+Credit: Sales Revenue
+
+When the customer pays:
+
+Debit: Cash  
+Credit: Accounts Receivable
+
+Companies monitor receivables using an aging schedule that categorizes outstanding invoices by time overdue.
+
+Example categories:
+
+• 0–30 days
+• 31–60 days
+• 61–90 days
+• 90+ days
+
+High accounts receivable may indicate strong sales but poor collection practices.

@@ -1,0 +1,22 @@
+Inventory accounting tracks the cost of goods available for sale and the cost of goods sold during a financial period.
+
+Businesses use inventory valuation methods to determine inventory cost.
+
+Common methods include:
+
+FIFO (First In First Out)
+Assumes the oldest inventory items are sold first.
+
+LIFO (Last In First Out)
+Assumes the most recently purchased inventory is sold first.
+
+Weighted Average Cost
+Calculates average cost per unit.
+
+Inventory valuation impacts:
+
+• Cost of Goods Sold
+• Gross Profit
+• Tax liability
+
+Lower inventory valuation increases COGS and reduces taxable income.

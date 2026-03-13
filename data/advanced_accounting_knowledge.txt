@@ -1,0 +1,376 @@
+GENERAL LEDGER
+
+The general ledger is the central repository that records all financial transactions of a business. Every transaction recorded in journals is eventually posted to the general ledger. It contains accounts such as assets, liabilities, equity, revenue, and expenses. The ledger allows businesses to prepare financial statements and analyze financial activity.
+
+TRIAL BALANCE
+
+A trial balance is a report that lists all general ledger accounts and their balances at a specific point in time. It ensures that total debits equal total credits, which validates the accuracy of bookkeeping records. A balanced trial balance helps accountants prepare financial statements.
+
+CHART OF ACCOUNTS
+
+A chart of accounts is an organized list of all financial accounts used by a business. It categorizes accounts into assets, liabilities, equity, revenue, and expenses. Each account has a unique identifier to simplify financial recording and reporting.
+
+REVENUE RECOGNITION
+
+Revenue recognition is an accounting principle that determines when revenue should be recorded. Under the accrual accounting method, revenue is recognized when it is earned and realizable, not necessarily when cash is received. The five-step revenue recognition model includes identifying contracts, performance obligations, transaction price, allocation, and revenue recognition when obligations are satisfied.
+
+EXPENSE RECOGNITION
+
+Expense recognition follows the matching principle, which requires expenses to be recorded in the same period as the revenue they help generate. This ensures accurate profit measurement.
+
+RETAINED EARNINGS
+
+Retained earnings represent the cumulative profits of a company that are kept within the business rather than distributed to shareholders as dividends. It is calculated as:
+
+Beginning Retained Earnings
+
+* Net Profit
+
+- Dividends
+  = Ending Retained Earnings
+
+GOODWILL ACCOUNTING
+
+Goodwill is an intangible asset that arises when one company acquires another company for a price higher than the fair value of its identifiable assets. It represents brand value, reputation, and customer relationships.
+
+INTANGIBLE ASSETS
+
+Intangible assets are non-physical assets that provide long-term economic benefits. Examples include patents, trademarks, copyrights, brand value, and intellectual property. These assets are typically amortized over their useful life.
+
+FIXED ASSETS
+
+Fixed assets are long-term tangible assets used in business operations. Examples include machinery, buildings, vehicles, and equipment. These assets are recorded on the balance sheet and depreciated over their useful life.
+
+CAPITAL EXPENDITURE
+
+Capital expenditures (CapEx) are funds used by a company to acquire, upgrade, or maintain physical assets. These expenditures provide long-term benefits and are recorded as assets rather than immediate expenses.
+
+OPERATING EXPENSES
+
+Operating expenses are the costs incurred in the normal course of business operations. Examples include salaries, rent, utilities, marketing costs, and administrative expenses. These expenses appear on the income statement.
+
+GROSS PROFIT
+
+Gross profit represents the profit a company makes after deducting the cost of goods sold from revenue. It is calculated as:
+
+Gross Profit = Revenue - Cost of Goods Sold
+
+This metric measures production efficiency.
+
+NET PROFIT
+
+Net profit is the final profit after subtracting all operating expenses, interest, and taxes from total revenue. It reflects the overall profitability of the business.
+
+TAX ACCOUNTING
+
+Tax accounting focuses on preparing financial records for tax compliance and reporting. It follows tax laws and regulations that may differ from financial accounting standards.
+
+CORPORATE TAX
+
+Corporate tax is the tax imposed on the profits of corporations. The taxable income is calculated after deducting allowable expenses and applying tax adjustments.
+
+PAYROLL ACCOUNTING
+
+Payroll accounting involves recording employee compensation, taxes, and deductions. It includes wages, salaries, bonuses, payroll taxes, and benefits.
+
+DIVIDENDS
+
+Dividends are payments made by a corporation to its shareholders from its profits. Dividends can be paid in cash or additional shares.
+
+EQUITY FINANCING
+
+Equity financing involves raising capital by selling shares of the company. Investors receive ownership stakes in return for their investment.
+
+DEBT FINANCING
+
+Debt financing occurs when a business raises capital by borrowing money. The company must repay the loan along with interest according to agreed terms.
+
+BANK RECONCILIATION
+
+Bank reconciliation is the process of comparing a company’s accounting records with bank statements to identify discrepancies. Adjustments are made for outstanding checks, deposits in transit, or bank fees.
+
+AUDIT TRAIL
+
+An audit trail is a chronological record of financial transactions that allows auditors to trace transactions from source documents to financial statements. It improves transparency and accountability.
+
+INTERNAL CONTROLS
+
+Internal controls are procedures and policies implemented to protect company assets, ensure accurate financial reporting, and prevent fraud. Examples include segregation of duties, approval procedures, and access controls.
+
+FINANCIAL FORECASTING
+
+Financial forecasting involves estimating future financial outcomes based on historical data and market trends. It helps businesses plan investments, manage risks, and make strategic decisions.
+
+BUDGETING
+
+Budgeting is the process of creating a financial plan for future income and expenses. Businesses use budgets to allocate resources and control spending.
+
+VARIANCE ANALYSIS
+
+Variance analysis compares actual financial results with budgeted figures. It identifies deviations and helps management take corrective actions.
+
+BREAK EVEN ANALYSIS
+
+Break-even analysis determines the level of sales required to cover total costs. The break-even point is calculated as:
+
+Break-even point = Fixed Costs / (Selling Price per Unit - Variable Cost per Unit)
+
+COST ACCOUNTING
+
+Cost accounting focuses on tracking and analyzing the costs associated with producing goods or services. It helps businesses control expenses and improve profitability.
+
+ACTIVITY BASED COSTING
+
+Activity-Based Costing (ABC) assigns overhead costs to products based on the activities required to produce them. This method provides more accurate product costing compared to traditional costing.
+
+STANDARD COSTING
+
+Standard costing assigns predetermined costs to products or services. Actual costs are compared with standard costs to determine variances.
+
+OVERHEAD ALLOCATION
+
+Overhead allocation distributes indirect costs such as utilities, rent, and administrative expenses to different departments or products using allocation bases such as labor hours or machine hours.
+
+ACCRUAL ACCOUNTING VS CASH ACCOUNTING
+
+Accrual accounting records revenues and expenses when they are earned or incurred, regardless of when cash is received or paid. It follows the matching principle to ensure financial statements reflect the economic activity of a period. Cash accounting records transactions only when cash is received or paid.
+
+ACCOUNTING EQUATION
+
+The fundamental accounting equation is:
+
+Assets = Liabilities + Equity
+
+Assets represent resources owned by a business, liabilities represent obligations owed to external parties, and equity represents the residual interest of owners in the business.
+
+DOUBLE ENTRY BOOKKEEPING
+
+Double-entry bookkeeping requires every financial transaction to be recorded in at least two accounts with equal debit and credit amounts. This system ensures the accounting equation remains balanced.
+
+GENERAL LEDGER
+
+The general ledger is the primary accounting record that consolidates all financial transactions posted from journals. It categorizes transactions into accounts such as assets, liabilities, equity, revenue, and expenses.
+
+TRIAL BALANCE
+
+A trial balance lists all general ledger accounts and their balances to verify that total debits equal total credits. It helps identify errors before financial statements are prepared.
+
+BALANCE SHEET STRUCTURE
+
+A balance sheet reports the financial position of a company at a specific date and includes three components:
+
+Assets
+Liabilities
+Equity
+
+CURRENT AND NON CURRENT ASSETS
+
+Current assets are assets expected to be converted into cash within one year, such as cash, accounts receivable, and inventory. Non-current assets are long-term resources such as property, plant, and equipment.
+
+LIABILITIES VS EQUITY
+
+Liabilities represent obligations that must be repaid to creditors, while equity represents the owners’ residual interest in the company after liabilities are deducted from assets.
+
+RETAINED EARNINGS
+
+Retained earnings represent cumulative profits retained in the business rather than distributed as dividends. They are calculated as:
+
+Beginning retained earnings + Net income − Dividends
+
+REVENUE RECOGNITION
+
+Revenue recognition determines when revenue should be recorded. Under accrual accounting, revenue is recognized when it is earned and realizable.
+
+MATCHING PRINCIPLE
+
+The matching principle requires expenses to be recorded in the same accounting period as the revenues they help generate.
+
+DEPRECIATION
+
+Depreciation allocates the cost of tangible assets over their useful life to reflect wear and usage.
+
+COMMON DEPRECIATION METHODS
+
+Straight Line Method:
+(Cost − Salvage Value) / Useful Life
+
+Declining Balance Method:
+Applies a fixed depreciation rate to the remaining book value.
+
+Double Declining Balance Method:
+Accelerated depreciation calculated using double the straight-line rate.
+
+Units of Production Method:
+Depreciation based on asset usage.
+
+INTANGIBLE ASSETS
+
+Intangible assets are non-physical assets that provide long-term value, including patents, trademarks, copyrights, and brand reputation.
+
+GOODWILL
+
+Goodwill arises when a company acquires another company for more than the fair value of its identifiable net assets. It reflects brand value, reputation, and customer relationships.
+
+INCOME STATEMENT
+
+The income statement reports financial performance over a period by showing revenue, expenses, and profit.
+
+GROSS PROFIT
+
+Gross Profit = Revenue − Cost of Goods Sold
+
+NET PROFIT
+
+Net profit represents total earnings after deducting operating expenses, interest, and taxes from revenue.
+
+CASH FLOW STATEMENT
+
+The cash flow statement tracks the inflow and outflow of cash in three categories:
+
+Operating activities
+Investing activities
+Financing activities
+
+WORKING CAPITAL
+
+Working Capital = Current Assets − Current Liabilities
+
+Positive working capital indicates the company can meet short-term obligations.
+
+LIQUIDITY RATIOS
+
+Current Ratio = Current Assets / Current Liabilities
+
+Quick Ratio = (Current Assets − Inventory) / Current Liabilities
+
+PROFITABILITY RATIOS
+
+Return on Assets (ROA) = Net Income / Total Assets
+
+Return on Equity (ROE) = Net Income / Shareholder Equity
+
+Net Profit Margin = Net Profit / Revenue
+
+LEVERAGE RATIOS
+
+Debt to Equity Ratio = Total Liabilities / Total Equity
+
+This ratio measures the degree to which a company finances operations through debt.
+
+INVENTORY ACCOUNTING
+
+Inventory accounting determines the cost of goods available for sale and the cost of goods sold during a financial period.
+
+FIFO INVENTORY METHOD
+
+First-In First-Out assumes the oldest inventory items are sold first.
+
+LIFO INVENTORY METHOD
+
+Last-In First-Out assumes the most recently purchased inventory items are sold first.
+
+WEIGHTED AVERAGE COST METHOD
+
+Calculates the average cost per inventory unit to determine cost of goods sold.
+
+COST ACCOUNTING
+
+Cost accounting focuses on tracking production costs to help businesses control expenses and improve profitability.
+
+FIXED AND VARIABLE COSTS
+
+Fixed costs remain constant regardless of production level. Examples include rent and salaries.
+
+Variable costs change with production volume, such as raw materials and direct labor.
+
+DIRECT AND INDIRECT COSTS
+
+Direct costs can be traced directly to a product. Indirect costs (overhead) cannot be traced directly and must be allocated.
+
+OVERHEAD COSTS
+
+Overhead includes indirect production costs such as factory utilities, equipment depreciation, and maintenance.
+
+OVERHEAD ALLOCATION
+
+Overhead costs are distributed to products using allocation bases such as machine hours or labor hours.
+
+ACTIVITY BASED COSTING
+
+Activity-based costing assigns overhead costs based on the activities required to produce a product, resulting in more accurate cost measurement.
+
+STANDARD COSTING
+
+Standard costing assigns predetermined costs to products and compares them with actual costs to determine variances.
+
+VARIANCE ANALYSIS
+
+Variance analysis compares actual financial results with expected or standard results to identify performance deviations.
+
+BREAK EVEN ANALYSIS
+
+Break-even point determines the level of sales required to cover total costs.
+
+Break Even = Fixed Costs / (Selling Price per Unit − Variable Cost per Unit)
+
+CONTRIBUTION MARGIN
+
+Contribution Margin = Sales − Variable Costs
+
+It shows how much revenue contributes to covering fixed costs and generating profit.
+
+CAPITAL EXPENDITURES
+
+Capital expenditures involve spending on long-term assets such as equipment, buildings, or infrastructure.
+
+OPERATING EXPENSES
+
+Operating expenses include day-to-day costs such as salaries, rent, utilities, and marketing.
+
+BANK RECONCILIATION
+
+Bank reconciliation compares company records with bank statements to identify discrepancies.
+
+AUDIT TRAIL
+
+An audit trail is a chronological record of financial transactions that allows auditors to trace data from source documents to financial statements.
+
+INTERNAL CONTROLS
+
+Internal controls are policies and procedures implemented to safeguard assets, ensure accurate financial reporting, and prevent fraud.
+
+PAYROLL ACCOUNTING
+
+Payroll accounting records employee wages, salaries, payroll taxes, benefits, and deductions.
+
+DIVIDENDS
+
+Dividends are payments distributed to shareholders from corporate profits.
+
+EQUITY FINANCING
+
+Equity financing raises capital by issuing shares of ownership to investors.
+
+DEBT FINANCING
+
+Debt financing involves borrowing funds that must be repaid with interest.
+
+BUDGETING
+
+Budgeting is the process of planning future income and expenditures to allocate resources efficiently.
+
+FINANCIAL FORECASTING
+
+Financial forecasting predicts future financial performance using historical data and market trends.
+
+COST VOLUME PROFIT ANALYSIS
+
+Cost-volume-profit analysis examines how changes in sales volume, costs, and prices affect profit.
+
+OPPORTUNITY COST
+
+Opportunity cost represents the potential benefit lost when choosing one alternative over another.
+
+SUNK COST
+
+Sunk costs are past costs that cannot be recovered and should not influence future business decisions.

@@ -1,0 +1,21 @@
+Depreciation is the systematic allocation of the cost of a tangible asset over its useful life.
+
+Businesses depreciate assets to match the expense of using the asset with the revenue it generates.
+
+Common depreciation methods include:
+
+Straight-Line Method
+Depreciation Expense = (Cost of Asset - Salvage Value) / Useful Life
+
+Declining Balance Method
+An accelerated depreciation method where a fixed percentage is applied to the remaining book value each year.
+
+Double Declining Balance Method
+A faster accelerated depreciation technique calculated as:
+
+Depreciation Rate = (2 / Useful Life)
+
+Units of Production Method
+Depreciation based on actual usage of the asset.
+
+Depreciation reduces the carrying value of assets on the balance sheet and appears as an expense on the income statement.

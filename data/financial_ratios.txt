@@ -1,0 +1,27 @@
+Financial ratios help evaluate a company's financial performance and stability.
+
+Common ratios include:
+
+Liquidity Ratios
+
+Current Ratio = Current Assets / Current Liabilities
+
+Quick Ratio = (Current Assets - Inventory) / Current Liabilities
+
+Profitability Ratios
+
+Gross Profit Margin = (Revenue - Cost of Goods Sold) / Revenue
+
+Net Profit Margin = Net Profit / Revenue
+
+Leverage Ratios
+
+Debt to Equity Ratio = Total Liabilities / Shareholder Equity
+
+Efficiency Ratios
+
+Inventory Turnover = Cost of Goods Sold / Average Inventory
+
+Accounts Receivable Turnover = Net Credit Sales / Average Accounts Receivable
+
+Financial analysts use ratios to compare companies and evaluate financial health.

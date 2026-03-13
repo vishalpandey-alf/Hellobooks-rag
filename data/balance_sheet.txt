@@ -1,0 +1,64 @@
+A balance sheet is a financial statement that presents the financial position of a company at a specific point in time.
+
+It follows the accounting equation:
+
+Assets = Liabilities + Equity
+
+The balance sheet provides insight into a company's financial stability, liquidity, and capital structure.
+
+Assets are resources owned by the business that provide future economic benefit.
+
+Assets are classified into:
+
+Current assets:
+Assets expected to be converted into cash within one year.
+
+Examples:
+• Cash
+• Accounts receivable
+• Inventory
+• Short-term investments
+
+Non-current assets:
+Long-term assets used in operations.
+
+Examples:
+• Property
+• Equipment
+• Buildings
+• Intangible assets (patents, trademarks)
+
+Liabilities represent obligations owed to external parties.
+
+Liabilities are classified as:
+
+Current liabilities:
+Obligations due within one year.
+
+Examples:
+• Accounts payable
+• Short-term loans
+• Accrued expenses
+• Taxes payable
+
+Long-term liabilities:
+Obligations due after one year.
+
+Examples:
+• Bank loans
+• Bonds payable
+• Long-term leases
+
+Equity represents the residual interest in the assets of the business after deducting liabilities.
+
+Equity components include:
+
+• Owner's capital
+• Retained earnings
+• Shareholder equity
+
+Financial analysts use balance sheets to calculate important ratios such as:
+
+Current ratio = Current Assets / Current Liabilities
+
+Debt-to-equity ratio = Total Liabilities / Total Equity

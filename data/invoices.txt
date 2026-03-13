@@ -1,0 +1,48 @@
+An invoice is a commercial document issued by a seller to a buyer indicating the products or services provided and the amount owed.
+
+Invoices are critical for revenue tracking, accounts receivable management, and taxation compliance.
+
+A professional invoice typically contains:
+
+• Invoice number
+• Issue date
+• Payment due date
+• Seller information
+• Buyer information
+• Description of goods or services
+• Quantity and unit price
+• Subtotal
+• Taxes (GST / VAT)
+• Discounts
+• Total payable amount
+• Payment terms
+
+Common payment terms include:
+
+Net 30:
+Payment is due within 30 days of the invoice date.
+
+Net 15:
+Payment due within 15 days.
+
+Due on receipt:
+Immediate payment required.
+
+Invoices play a central role in accounts receivable management. When an invoice is issued:
+
+Debit: Accounts Receivable  
+Credit: Revenue
+
+Once payment is received:
+
+Debit: Cash  
+Credit: Accounts Receivable
+
+Businesses use invoicing systems to automate billing, track outstanding payments, and monitor overdue invoices.
+
+Advanced invoice systems may integrate:
+
+• automated payment reminders
+• payment gateway integration
+• invoice aging reports
+• real-time revenue tracking

@@ -1,0 +1,42 @@
+The profit and loss statement (P&L), also called the income statement, reports a company's financial performance over a specific accounting period.
+
+The primary purpose of the income statement is to determine whether a business generated profit or incurred a loss.
+
+The structure typically includes:
+
+Revenue (Sales)
+Total income generated from goods or services sold.
+
+Cost of Goods Sold (COGS)
+Direct costs associated with producing goods or delivering services.
+
+Gross Profit
+Gross Profit = Revenue - Cost of Goods Sold
+
+Operating Expenses
+Costs incurred during normal business operations.
+
+Examples include:
+• Rent
+• Salaries
+• Utilities
+• Marketing expenses
+• Insurance
+
+Operating Income
+Operating Income = Gross Profit - Operating Expenses
+
+Non-Operating Income and Expenses
+Includes interest income, investment gains, or loan interest expenses.
+
+Net Profit
+Net Profit = Total Revenue - Total Expenses
+
+Businesses analyze income statements to evaluate:
+
+• profitability
+• operating efficiency
+• cost structure
+• revenue growth trends
+
+The income statement also plays a major role in tax calculation and financial forecasting.

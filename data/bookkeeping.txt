@@ -1,0 +1,37 @@
+Bookkeeping is the systematic recording, organizing, and maintaining of financial transactions for a business.
+
+Bookkeeping ensures accurate financial reporting and forms the foundation for preparing financial statements such as the balance sheet, income statement, and cash flow statement.
+
+Two main bookkeeping systems exist:
+
+Single-entry bookkeeping:
+Records each transaction once. Typically used by small businesses with simple financial structures.
+
+Double-entry bookkeeping:
+Records each transaction in two accounts using the accounting equation:
+
+Assets = Liabilities + Equity
+
+Each transaction affects at least two accounts with equal debit and credit values.
+
+Core bookkeeping tasks include:
+• Recording journal entries
+• Maintaining the general ledger
+• Tracking accounts receivable
+• Tracking accounts payable
+• Reconciling bank statements
+• Maintaining payroll records
+• Recording asset depreciation
+
+Common accounting accounts include:
+
+Assets:
+Cash, accounts receivable, inventory, equipment, buildings.
+
+Liabilities:
+Accounts payable, loans payable, accrued expenses.
+
+Equity:
+Owner’s capital, retained earnings.
+
+Accurate bookkeeping enables businesses to analyze financial performance, prepare tax filings, detect fraud, and maintain regulatory compliance.
