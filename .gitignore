@@ -13,7 +13,9 @@ venv/
 .streamlit/
 
 # FAISS vector database
-vector_db/
+vectorstore/
+*.faiss
+*.pkl
 
 # Uploaded documents
 uploads/
