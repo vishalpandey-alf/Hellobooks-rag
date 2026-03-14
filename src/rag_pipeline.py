@@ -1,141 +1,52 @@
-from langchain_community.document_loaders import DirectoryLoader, TextLoader
-from langchain_text_splitters import RecursiveCharacterTextSplitter
-
-from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import HuggingFaceEmbeddings
-
-from langchain_community.llms import Ollama
-
-from langchain_core.prompts import PromptTemplate
-from langchain_classic.chains import RetrievalQA
-
 import os
 
+from dotenv import load_dotenv
 
-VECTOR_PATH = "vectorstore"
+from langchain_google_genai import ChatGoogleGenerativeAI
+
+from src.vector_store import load_or_create_vector_db
+from src.hybrid_retriever import HybridRetriever
+
+load_dotenv()
 
 
 def load_rag_pipeline():
 
-    # -------------------------
-    # EMBEDDINGS (load once)
-    # -------------------------
+    vector_db = load_or_create_vector_db()
 
-    embeddings = HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-MiniLM-L6-v2"
+    retriever = HybridRetriever(vector_db)
+
+    llm = ChatGoogleGenerativeAI(
+        model="gemini-1.5-flash",
+        temperature=0.2,
+        streaming=True,
+        google_api_key=os.getenv("GOOGLE_API_KEY")
     )
 
-    # -------------------------
-    # LOAD EXISTING VECTOR DB
-    # -------------------------
+    return llm,retriever
 
-    if os.path.exists(VECTOR_PATH):
 
-        vector_db = FAISS.load_local(
-            VECTOR_PATH,
-            embeddings,
-            allow_dangerous_deserialization=True
-        )
+def generate_answer(llm,retriever,query):
 
-    else:
+    docs = retriever.search(query,k=4)
 
-        # -------------------------
-        # LOAD DOCUMENTS
-        # -------------------------
+    context = "\n\n".join([d.page_content for d in docs[:2]])
 
-        loader = DirectoryLoader(
-            "knowledge",
-            glob="**/*.txt",
-            loader_cls=TextLoader
-        )
+    prompt = f"""
 
-        documents = loader.load()
+You are an expert accounting AI assistant.
 
-        # -------------------------
-        # SPLIT DOCUMENTS
-        # -------------------------
-
-        splitter = RecursiveCharacterTextSplitter(
-            chunk_size=600,
-            chunk_overlap=100
-        )
-
-        chunks = splitter.split_documents(documents)
-
-        # -------------------------
-        # CREATE VECTOR DATABASE
-        # -------------------------
-
-        vector_db = FAISS.from_documents(
-            chunks,
-            embeddings
-        )
-
-        # save for future runs
-        vector_db.save_local(VECTOR_PATH)
-
-    # -------------------------
-    # RETRIEVER
-    # -------------------------
-
-    retriever = vector_db.as_retriever(
-        search_kwargs={"k": 3}
-    )
-
-    # -------------------------
-    # LLM (FAST CONFIG)
-    # -------------------------
-
-    llm = Ollama(
-        model="gemma:2b",
-        temperature=0.2
-    )
-
-    # -------------------------
-    # PROMPT
-    # -------------------------
-
-    template = """
-You are a professional accounting assistant.
-
-Use the context to answer the question clearly.
-
-Rules:
-- Provide 5–7 sentences
-- Explain in simple language
-- Give examples if useful
+Use the provided context to answer the question.
 
 Context:
 {context}
 
 Question:
-{question}
+{query}
 
-Answer:
+Provide a clear and detailed answer.
 """
 
-    prompt = PromptTemplate(
-        template=template,
-        input_variables=["context", "question"]
-    )
+    response = llm.invoke(prompt)
 
-    # -------------------------
-    # QA CHAIN
-    # -------------------------
-
-    qa_chain = RetrievalQA.from_chain_type(
-
-        llm=llm,
-
-        chain_type="stuff",
-
-        retriever=retriever,
-
-        return_source_documents=True,
-
-        chain_type_kwargs={
-            "prompt": prompt
-        }
-    )
-
-    return qa_chain, vector_db
+    return response.content,docs

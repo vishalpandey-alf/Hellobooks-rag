@@ -3,53 +3,72 @@ import os
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-VECTOR_PATH = "vectorstore/db_faiss"
+from langchain_community.document_loaders import (
+    TextLoader,
+    PyPDFLoader,
+    CSVLoader
+)
 
+DATA_PATH = "knowledge"
+VECTOR_PATH = "vectorstore"
 
 def load_embeddings():
+
     return HuggingFaceEmbeddings(
-        model_name="sentence-transformers/paraphrase-MiniLM-L3-v2"
+        model_name="sentence-transformers/all-MiniLM-L6-v2"
     )
 
 
-def build_vector_db(documents, embeddings):
+def load_documents():
 
-    db = FAISS.from_documents(documents, embeddings)
+    documents = []
 
-    os.makedirs(VECTOR_PATH, exist_ok=True)
+    for file in os.listdir(DATA_PATH):
 
-    db.save_local(VECTOR_PATH)
+        path = os.path.join(DATA_PATH,file)
 
-    return db
+        if file.endswith(".txt"):
+            loader = TextLoader(path)
+
+        elif file.endswith(".pdf"):
+            loader = PyPDFLoader(path)
+
+        elif file.endswith(".csv"):
+            loader = CSVLoader(path)
+
+        else:
+            continue
+
+        documents.extend(loader.load())
+
+    return documents
 
 
-def load_or_create_vector_db(documents):
+def load_or_create_vector_db():
 
     embeddings = load_embeddings()
 
-    index_file = os.path.join(VECTOR_PATH, "index.faiss")
+    if os.path.exists(VECTOR_PATH):
 
-    # ---------------------------------
-    # SAFE LOAD
-    # ---------------------------------
+        return FAISS.load_local(
+            VECTOR_PATH,
+            embeddings,
+            allow_dangerous_deserialization=True
+        )
 
-    if os.path.exists(index_file):
+    docs = load_documents()
 
-        try:
+    splitter = RecursiveCharacterTextSplitter(
+        chunk_size=500,
+        chunk_overlap=100
+    )
 
-            db = FAISS.load_local(
-                VECTOR_PATH,
-                embeddings,
-                allow_dangerous_deserialization=True
-            )
+    chunks = splitter.split_documents(docs)
 
-        except Exception:
-            # rebuild if index corrupted
-            db = build_vector_db(documents, embeddings)
+    db = FAISS.from_documents(chunks, embeddings)
 
-    else:
-
-        db = build_vector_db(documents, embeddings)
+    db.save_local(VECTOR_PATH)
 
     return db
